@@ -64,7 +64,7 @@ dbscan = DBSCAN(eps=0.5, min_samples=5)
 y_dbscan = dbscan.fit_predict(X)
 
 Dimensionality Reduction Techniques
-1.	Principal Component Analysis (PCA)
+   1.	Principal Component Analysis (PCA)
 •	Dataset: Iris dataset
 •	Implementation:
 from sklearn.decomposition import PCA
@@ -72,7 +72,7 @@ from sklearn.decomposition import PCA
 pca = PCA(n_components=2)
 X_pca = pca.fit_transform(X)
 
-2.	t-SNE
+  2.	t-SNE
 •	Dataset: Iris dataset
 •	Implementation:
 from sklearn.manifold import TSNE
